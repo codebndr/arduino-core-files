@@ -1,0 +1,44 @@
+#######################################
+# Syntax Coloring Map For NetEEPROM
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+NetEEPROM	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+writeImgBad	KEYWORD2
+writeImgOk	KEYWORD2
+
+eraseNetSig	KEYWORD2
+writeNet	KEYWORD2
+netSigIsSet	KEYWORD2
+readMAC		KEYWORD2
+readIP		KEYWORD2
+readGW		KEYWORD2
+readSN		KEYWORD2
+printNet	KEYWORD2
+
+erasePortSig	KEYWORD2
+writePort	KEYWORD2
+portSigIsSet	KEYWORD2
+readPort	KEYWORD2
+printPort	KEYWORD2
+
+erasePassSig	KEYWORD2
+writePass	KEYWORD2
+passSigIsSet	KEYWORD2
+readPass	KEYWORD2
+printPass	KEYWORD2
+
+print		KEYWORD2
+printAll	KEYWORD2
+
+######################################
+# Constants (LITERAL1)
+#######################################
