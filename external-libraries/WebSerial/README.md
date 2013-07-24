@@ -1,4 +1,0 @@
-WebSerial
-=========
-
-Arduino WebSerial Library
