@@ -1,0 +1,12 @@
+My intention was to build the 3.4 version. However, the python
+bindings for that version mistake the left bracket with the right
+bracket.
+
+That's why I cloned the 3.5 version, which was still under development, from
+the  llvm & clang repositories.
+
+The last commits where:
+    LLVM  - 743cf745309da49f1540f698f97eecc78126b5a3
+    Clang - cb096de1de446dca9faa1db914dd0e464aec6ad7
+
+I've attached the config.log too.
