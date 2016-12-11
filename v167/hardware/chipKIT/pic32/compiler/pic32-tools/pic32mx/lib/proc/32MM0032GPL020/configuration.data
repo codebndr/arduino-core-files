@@ -1,0 +1,131 @@
+Daytona Configuration Word Definitions: 0001
+CWORD:BFC017C4:FFFFFFFF:FFFFFFFF
+CSETTING:00000002:ALTCMP:Alternate Comparator1 Pins Location Enable bit
+CVALUE:00000000:ON:Alternate Comparator1 pins are used
+CVALUE:00000002:OFF:Primary Comparator1 pins are used
+CSETTING:00000008:SOSCHP:Secondary Oscillator High Power Enable bit
+CVALUE:00000000:ON:SOSC oprerates in high power mode
+CVALUE:00000008:OFF:SOSC oprerates in normal power mode.
+CSETTING:00000010:ALTI2C:Alternate I2C1 Pins Location Enable bit
+CVALUE:00000000:ON:Alternate I2C1 pins are used
+CVALUE:00000010:OFF:Primary I2C1 pins are used
+CSETTING:FFFF8000:USERID:User ID bits
+CWORD:BFC017C8:FFFFFFFF:FFFFFFFF
+CSETTING:00000004:JTAGEN:JTAG Enable bit
+CVALUE:00000000:OFF:JTAG is disabled
+CVALUE:00000004:ON:JTAG is enabled
+CSETTING:00000018:ICS:ICE/ICD Communication Channel Selection bits
+CVALUE:00000000:NONE:Not connected
+CVALUE:00000008:PGx3:Communicate on PGEC3/PGED3
+CVALUE:00000010:PGx2:Communicate on PGEC2/PGED2
+CVALUE:00000018:PGx1:Communicate on PGEC1/PGED1
+CWORD:BFC017CC:FFFFFFFF:FFFFFFFF
+CSETTING:00000003:BOREN:Brown-out Reset Enable bits
+CVALUE:00000000:BOR0:Brown-out Reset disabled in hardware; SBOREN bit disabled
+CVALUE:00000001:BOR1:Brown-out Reset controlled with the SBOREN bit setting
+CVALUE:00000002:BOR2:Brown-out Reset enabled only while device active and disabled in Sleep; SBOREN bit disabled
+CVALUE:00000003:BOR3:Brown-out Reset enabled in hardware; SBOREN bit disabled
+CSETTING:00000004:RETVR:Retention Voltage Regulator Enable bit
+CVALUE:00000000:ON:Retention regulator is enabled and controlled by RETEN bit during sleep
+CVALUE:00000004:OFF:Retention regulator is disabled
+CSETTING:00000008:LPBOREN:Downside Voltage Protection Enable bit
+CVALUE:00000000:OFF:Low power BOR is disabled
+CVALUE:00000008:ON:Low power BOR is enabled, when main BOR is disabled
+CWORD:BFC017D0:FFFFFFFF:FFFFFFFF
+CSETTING:0000001F:SWDTPS:Sleep Mode Watchdog Timer Postscale Selection bits
+CVALUE:00000000:PS1:1:1
+CVALUE:00000001:PS2:1:2
+CVALUE:00000002:PS4:1:4
+CVALUE:00000003:PS8:1:8
+CVALUE:00000004:PS16:1:16
+CVALUE:00000005:PS32:1:32
+CVALUE:00000006:PS64:1:64
+CVALUE:00000007:PS128:1:128
+CVALUE:00000008:PS256:1:256
+CVALUE:00000009:PS512:1:512
+CVALUE:0000000A:PS1024:1:1024
+CVALUE:0000000B:PS2048:1:2048
+CVALUE:0000000C:PS4096:1:4096
+CVALUE:0000000D:PS8192:1:8192
+CVALUE:0000000E:PS16384:1:16384
+CVALUE:0000000F:PS32768:1:32768
+CVALUE:00000010:PS65536:1:65536
+CVALUE:00000011:PS131072:1:131072
+CVALUE:00000012:PS262144:1:262144
+CVALUE:00000013:PS524288:1:524288
+CVALUE:00000014:PS1048576:1:1048576
+CSETTING:00000060:FWDTWINSZ:Watchdog Timer Window Size bits
+CVALUE:00000000:PS75_0:Watchdog timer window size is 75%
+CVALUE:00000020:PS50_0:Watchdog timer window size is 50%
+CVALUE:00000040:PS37_5:Watchdog timer window size is 37.5%
+CVALUE:00000060:PS25_0:Watchdog timer window size is 25%
+CSETTING:00000080:WINDIS:Windowed Watchdog Timer Disable bit
+CVALUE:00000000:ON:Watchdog timer is in window mode
+CVALUE:00000080:OFF:Watchdog timer is in non-window mode
+CSETTING:00001F00:RWDTPS:Run Mode Watchdog Timer Postscale Selection bits
+CVALUE:00000000:PS1:1:1
+CVALUE:00000100:PS2:1:2
+CVALUE:00000200:PS4:1:4
+CVALUE:00000300:PS8:1:8
+CVALUE:00000400:PS16:1:16
+CVALUE:00000500:PS32:1:32
+CVALUE:00000600:PS64:1:64
+CVALUE:00000700:PS128:1:128
+CVALUE:00000800:PS256:1:256
+CVALUE:00000900:PS512:1:512
+CVALUE:00000A00:PS1024:1:1024
+CVALUE:00000B00:PS2048:1:2048
+CVALUE:00000C00:PS4096:1:4096
+CVALUE:00000D00:PS8192:1:8192
+CVALUE:00000E00:PS16384:1:16384
+CVALUE:00000F00:PS32768:1:32768
+CVALUE:00001000:PS65536:1:65536
+CVALUE:00001100:PS131072:1:131072
+CVALUE:00001200:PS262144:1:262144
+CVALUE:00001300:PS524288:1:524288
+CVALUE:00001400:PS1048576:1:1048576
+CSETTING:00006000:RCLKSEL:Run Mode Watchdog Timer Clock Source Selection bits
+CVALUE:00000000:SYSCLK:Clock source is system clock
+CVALUE:00004000:FRC:Clock source is FRC oscillator
+CVALUE:00006000:LPRC:Clock source is LPRC (same as for sleep mode)
+CSETTING:00008000:FWDTEN:Watchdog Timer Enable bit
+CVALUE:00000000:OFF:WDT is disabled
+CVALUE:00008000:ON:WDT is enabled
+CWORD:BFC017D4:FFFFFFFF:FFFFFFFF
+CSETTING:00000007:FNOSC:Oscillator Selection bits
+CVALUE:00000000:FRCDIV:Fast RC oscillator (FRC) with divide-by-N
+CVALUE:00000001:PLL:Primary or FRC oscillator with PLL
+CVALUE:00000002:PRI:Primary oscillator (XT, HS, EC)
+CVALUE:00000003:DCO:Digitally controlled oscillator (DCO)
+CVALUE:00000004:SOSC:Low power secondary oscillator (SOSC)
+CVALUE:00000005:LPRC:Low power RC oscillator (LPRC)
+CSETTING:00000010:PLLSRC:System PLL Input Clock Selection bit
+CVALUE:00000000:PRI:Primary oscillator is selected as PLL reference input on device reset
+CVALUE:00000010:FRC:FRC oscillator is selected as PLL reference input on device reset
+CSETTING:00000040:LPOSCEN:Secondary Oscillator Low Power Mode Enable bit
+CVALUE:00000000:OFF:Secondary oscillator (SOSC) low power mode is disabled
+CVALUE:00000040:ON:Secondary oscillator (SOSC) low power mode is enabled
+CSETTING:00000080:IESO:Two Speed Startup Enable bit
+CVALUE:00000000:OFF:Two speed startup is disabled
+CVALUE:00000080:ON:Two speed startup is enabled
+CSETTING:00000300:POSCMOD:Primary Oscillator Selection bit
+CVALUE:00000000:EC:External clock mode is selected
+CVALUE:00000100:XT:XT oscillator mode is selected
+CVALUE:00000200:HS:HS oscillator mode is selected
+CVALUE:00000300:OFF:Primary oscillator is disabled
+CSETTING:00000400:OSCIOFNC:System Clock on CLKO Pin Enable bit
+CVALUE:00000000:ON:System clock is connected to CLKO/OSC2 pin
+CVALUE:00000400:OFF:OSCO pin operates as a normal I/O
+CSETTING:00001000:SOSCSEL:Secondary Oscillator External Clock Enable bit
+CVALUE:00000000:ON:External clock connected to SOSCI pin is used 
+CVALUE:00001000:OFF:Crystal is used
+CSETTING:0000C000:FCKSM:Clock Switching and Fail-Safe Clock Monitor Enable bits
+CVALUE:00000000:CSDCMD:Clock switching is disabled; Fail-safe clock monitor is disabled
+CVALUE:00004000:CSECMD:Clock switching is enabled; Fail-safe clock monitor is disabled
+CVALUE:00008000:CSDCME:Clock switching is disabled; Fail-safe clock monitor is enabled
+CVALUE:0000C000:CSECME:Clock switching is enabled; Fail-safe clock monitor is enabled
+CWORD:BFC017D8:FFFFFFFF:FFFFFFFF
+CSETTING:80000000:CP:Code Protection Enable bit
+CVALUE:00000000:ON:Code protection is enabled
+CVALUE:80000000:OFF:Code protection is disabled
+CWORD:BFC017E0:FFFFFFFF:FFFFFFFF

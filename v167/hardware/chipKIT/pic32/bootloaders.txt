@@ -1,0 +1,4 @@
+pic32prog.command=avrdude -C%T/avrdude.conf %V -p%M -c%O -P%P -b%B -D -Uflash:w:%H:i
+pic32prog.command_windows=avr/bin/avrdude -c%O -P%P -b%B -D -Uflash:w:%H:i -C%T/avr/etc/avrdude.conf %V -p%M
+pic32prog.verbose=-v
+pic32prog.quiet=-q -q

@@ -1,0 +1,12 @@
+
+code.name=Chibitronics Love-to-Code (audio)
+code.upload.tool=bossac
+code.upload.protocol=sam-ba
+code.upload.maximum_size=9936
+code.build.mcu=cortex-m0plus
+code.build.f_cpu=48000000L
+code.build.board=CHIBITRONICS_LTC
+code.build.core=chibitronics-arduino
+code.build.extra_flags=-D__CHIBITRONICS_LTC__ -mthumb -mfloat-abi=soft -fsingle-precision-constant
+code.build.ldscript=KL02Z32-app.ld
+code.build.variant=code
